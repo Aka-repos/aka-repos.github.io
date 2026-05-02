@@ -733,7 +733,7 @@ footer {
     min-height: auto;
   }
   .services-mobile-right {
-    height: 380px;
+    height: 635px;
     overflow: hidden;
   }
   .services-mobile-right > * {
@@ -771,9 +771,10 @@ footer {
   /* Skills */
   .skills-grid { grid-template-columns: 1fr; gap: 0.75rem; }
 
-  /* Services mockup: scale down further on very small screens */
+  /* Services mockup */
   .services-mobile-right {
-    height: 300px;
+    height: 635px !important;
+    overflow: visible !important;
   }
   .services-mobile-right > * {
     transform: scale(0.56);
